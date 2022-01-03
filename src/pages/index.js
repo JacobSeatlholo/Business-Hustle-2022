@@ -8,32 +8,31 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: <>Easy to Use</>,
+    title: <>Easy to Use Project Management App</>,
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Focus on what matters, save time and work more efficiently
+         through the Project management application that helps you create new plans, organize and assign tasks. 
+         It can be used as a task manager tool and/or calendar.
       </>
     ),
   },
   {
-    title: <>Focus on What Matters</>,
+    title: <>Social Media MArketing</>,
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+       Let us help you add a little creative magic to your social media profiles and brand identity through our specialized brand solutions.
       </>
     ),
   },
   {
-    title: <>Powered by React</>,
+    title: <>Turn-Key Web Development Services</>,
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+      Get a fully stacked team and tackle your organisations end to end design needs.
       </>
     ),
   },
