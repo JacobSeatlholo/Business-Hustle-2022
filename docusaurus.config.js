@@ -1,14 +1,14 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'Business Hustle',
+  tagline: 'Let us help you grow your business',
+  url: 'https://business-hustle-2022.vercel.app',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Business Hustle ©',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -17,13 +17,13 @@ module.exports = {
         {
           to: 'docs/doc1',
           activeBasePath: 'docs',
-          label: 'Docs',
+          label: 'Resources',
           position: 'left',
         },
         {to: 'blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          label: 'Project Management',
           position: 'right',
         },
       ],
@@ -32,14 +32,14 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'About Us',
           items: [
             {
-              label: 'Style Guide',
+              label: 'What We Do',
               to: 'docs/doc1',
             },
             {
-              label: 'Second Doc',
+              label: 'Who We Are',
               to: 'docs/doc2',
             },
           ],
@@ -48,16 +48,16 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Facebook',
+              href: 'https://www.facebook.com/HustlebusinessWorldwide',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Instagram',
+              href: 'https://www.instagram.com/businesshustleworldwide',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/HustleBusiness',
             },
           ],
         },
@@ -65,17 +65,17 @@ module.exports = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
+              label: 'Latest News',
               to: 'blog',
             },
             {
-              label: 'GitHub',
+              label: 'Contact Us',
               href: 'https://github.com/facebook/docusaurus',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Simple eternity holdings (Pty) Ltd. All rights reserved.`,
     },
   },
   presets: [
